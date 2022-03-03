@@ -14,10 +14,11 @@ require (
 	github.com/chaos-mesh/chaos-mesh/api/v1alpha1 v0.0.0
 	github.com/chaos-mesh/k8s_dns_chaos v0.2.0
 	github.com/containerd/cgroups v1.0.2-0.20210605143700-23b51209bf7b
-	github.com/containerd/containerd v1.2.3
+	github.com/containerd/containerd v1.4.13
 	github.com/containerd/continuity v0.0.0-20200107194136-26c1120b8d41 // indirect
-	github.com/containerd/cri v1.11.1 // indirect
 	github.com/containerd/fifo v0.0.0-20191213151349-ff969a566b00 // indirect
+	github.com/containerd/go-runc v1.0.0 // indirect
+	github.com/containerd/ttrpc v1.1.0 // indirect
 	github.com/containerd/typeurl v0.0.0-20200115183213-fe1d0d650e42 // indirect
 	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
 	github.com/docker/docker v1.4.2-0.20180625184442-8e610b2b55bf
@@ -34,7 +35,7 @@ require (
 	github.com/gogo/googleapis v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/mock v1.5.0
-	github.com/golang/protobuf v1.4.3
+	github.com/golang/protobuf v1.5.0
 	github.com/gorilla/mux v1.7.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
@@ -50,13 +51,13 @@ require (
 	github.com/onsi/gomega v1.10.1
 	github.com/opencontainers/image-spec v1.0.1 // indirect
 	github.com/opencontainers/runc v1.0.0-rc9 // indirect
+	github.com/opencontainers/selinux v1.10.0 // indirect
 	github.com/pingcap/check v0.0.0-20191216031241-8a5a85928f12 // indirect
 	github.com/pingcap/errors v0.11.5-0.20190809092503-95897b64e011
 	github.com/pingcap/failpoint v0.0.0-20200210140405-f8f9fb234798
 	github.com/pingcap/log v0.0.0-20200117041106-d28c14d3b1cd // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.0.0
-	github.com/prometheus/procfs v0.6.0 // indirect
 	github.com/robfig/cron v1.1.0
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/shirou/gopsutil v2.20.5+incompatible
@@ -81,9 +82,10 @@ require (
 	golang.org/x/tools v0.1.4
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 	google.golang.org/api v0.15.0
-	google.golang.org/grpc v1.27.0
-	google.golang.org/protobuf v1.23.0
+	google.golang.org/grpc v1.27.1
+	google.golang.org/protobuf v1.27.1
 	gopkg.in/yaml.v2 v2.3.0
+	gotest.tools/v3 v3.1.0 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.3 // indirect
 	k8s.io/api v0.18.2
 	k8s.io/apimachinery v0.18.2
