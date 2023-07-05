@@ -32,14 +32,13 @@ require (
 	github.com/go-logr/zapr v0.1.0
 	github.com/go-playground/validator/v10 v10.4.1
 	github.com/gogo/googleapis v1.3.2 // indirect
-	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
-	github.com/golang/mock v1.5.0
-	github.com/golang/protobuf v1.4.3
+	github.com/golang/mock v1.6.0
+	github.com/golang/protobuf v1.5.2
 	github.com/gorilla/mux v1.7.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/hashicorp/golang-lru v0.5.5-0.20210104140557-80c98217689d
-	github.com/iancoleman/strcase v0.1.3
+	github.com/iancoleman/strcase v0.2.0
 	github.com/jinzhu/gorm v1.9.12
 	github.com/joomcode/errorx v1.0.1
 	github.com/kelseyhightower/envconfig v1.4.0
@@ -64,7 +63,7 @@ require (
 	github.com/shurcooL/vfsgen v0.0.0-20181202132449-6a9ea43bcacd
 	github.com/spf13/cobra v1.1.1
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	github.com/swaggo/files v0.0.0-20190704085106-630677cd5c14
 	github.com/swaggo/gin-swagger v1.2.0
 	github.com/swaggo/swag v1.6.7
@@ -74,17 +73,14 @@ require (
 	go.uber.org/atomic v1.6.0
 	go.uber.org/fx v1.12.0
 	go.uber.org/zap v1.15.0
-	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
-	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324
-	golang.org/x/tools v0.1.4
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
-	google.golang.org/api v0.15.0
-	google.golang.org/grpc v1.27.0
-	google.golang.org/protobuf v1.23.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/time v0.1.0
+	golang.org/x/tools v0.3.0
+	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
+	google.golang.org/api v0.103.0
+	google.golang.org/grpc v1.53.0
+	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.3.0
-	honnef.co/go/tools v0.0.1-2020.1.3 // indirect
 	k8s.io/api v0.18.2
 	k8s.io/apimachinery v0.18.2
 	k8s.io/apiserver v0.17.0
