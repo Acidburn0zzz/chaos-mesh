@@ -5,7 +5,6 @@ require (
 	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/Microsoft/go-winio v0.4.11 // indirect
 	github.com/Microsoft/hcsshim v0.0.0-20190417211021-672e52e9209d // indirect
-	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
 	github.com/antonmedv/expr v1.8.9
 	github.com/aws/aws-sdk-go-v2 v1.3.2
 	github.com/aws/aws-sdk-go-v2/config v1.1.1
@@ -20,7 +19,7 @@ require (
 	github.com/containerd/fifo v0.0.0-20191213151349-ff969a566b00 // indirect
 	github.com/containerd/typeurl v0.0.0-20200115183213-fe1d0d650e42 // indirect
 	github.com/coreos/go-systemd/v22 v22.3.2 // indirect
-	github.com/docker/docker v1.4.2-0.20180625184442-8e610b2b55bf
+	github.com/docker/docker v24.0.9+incompatible
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c // indirect
 	github.com/ethereum/go-ethereum v1.10.2
@@ -35,7 +34,6 @@ require (
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/mock v1.5.0
 	github.com/golang/protobuf v1.4.3
-	github.com/gorilla/mux v1.7.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/hashicorp/golang-lru v0.5.5-0.20210104140557-80c98217689d
@@ -46,6 +44,8 @@ require (
 	github.com/lib/pq v1.2.0 // indirect
 	github.com/mgechev/revive v1.0.2-0.20200225072153-6219ca02fffb
 	github.com/moby/locker v1.0.1
+	github.com/moby/term v0.5.0 // indirect
+	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/onsi/ginkgo v1.14.0
 	github.com/onsi/gomega v1.10.1
 	github.com/opencontainers/image-spec v1.0.1 // indirect
@@ -75,15 +75,15 @@ require (
 	go.uber.org/fx v1.12.0
 	go.uber.org/zap v1.15.0
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324
-	golang.org/x/tools v0.1.4
+	golang.org/x/tools v0.2.0
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 	google.golang.org/api v0.15.0
 	google.golang.org/grpc v1.27.0
 	google.golang.org/protobuf v1.23.0
 	gopkg.in/yaml.v2 v2.3.0
+	gotest.tools/v3 v3.5.1 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.3 // indirect
 	k8s.io/api v0.18.2
 	k8s.io/apimachinery v0.18.2
